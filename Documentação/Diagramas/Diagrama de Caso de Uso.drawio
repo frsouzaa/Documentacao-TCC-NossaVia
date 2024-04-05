@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-05T01:29:08.737Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="33Q1dL46FQGLM9ny1d_4" version="24.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-05T01:30:11.004Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="wYQqxyoP3mciDG29Vwba" version="24.2.1" type="github">
   <diagram name="Página-1" id="gTYhepTF-UGLIyL8_KFd">
     <mxGraphModel dx="1290" dy="557" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -142,8 +142,8 @@
         <mxCell id="mjeEMUs552SAfgoRd7oV-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="0iaCH0QJhydmnR3I2TVo-7" target="0iaCH0QJhydmnR3I2TVo-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9zT3mG4KYW1sw9qfANXD-1" value="Sistema" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" vertex="1" parent="1">
-          <mxGeometry x="230" y="220" width="300" height="740" as="geometry" />
+        <mxCell id="9zT3mG4KYW1sw9qfANXD-4" value="Sistema de Denuncias" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="200" width="300" height="760" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
