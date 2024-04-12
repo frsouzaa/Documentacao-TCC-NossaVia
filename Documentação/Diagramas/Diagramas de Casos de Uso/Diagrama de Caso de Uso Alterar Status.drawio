@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-04-10T00:25:57.190Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="Weiquin0U-Gnm7u99Z3Q" version="24.2.2" type="github">
+<mxfile host="Electron" modified="2024-04-11T23:55:52.643Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.1.0 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="hbXpJsEQsdBKu-nHn6uc" version="24.1.0" type="device">
   <diagram name="Página-1" id="oj_VADKZE2PraNWBEL7O">
-    <mxGraphModel dx="1290" dy="557" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="870" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -28,8 +28,8 @@
             <mxPoint x="590" y="135" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ggUBeeSCoAA1NQyRr3Xk-15" value="«View»&lt;br&gt;&lt;b&gt;VizualizarDenúncia&lt;br&gt;&lt;/b&gt;" style="html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="452.5" y="70" width="135" height="50" as="geometry" />
+        <mxCell id="ggUBeeSCoAA1NQyRr3Xk-15" value="«View»&lt;br&gt;&lt;b&gt;TelaVizualizarDenuncia&lt;br&gt;&lt;/b&gt;" style="html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="446.25" y="70" width="147.5" height="50" as="geometry" />
         </mxCell>
         <mxCell id="ggUBeeSCoAA1NQyRr3Xk-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" parent="1" source="ggUBeeSCoAA1NQyRr3Xk-17" target="ggUBeeSCoAA1NQyRr3Xk-1" edge="1">
           <mxGeometry relative="1" as="geometry">
