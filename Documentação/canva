@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-24T22:56:56.611Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="q8ufKd02E0h8Qyq1pmff" version="24.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-24T23:03:35.222Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="M3cGckQenWxGowUtxhxC" version="24.2.5" type="github">
   <diagram name="Página-1" id="Q9Ahc3-0gL3LZqzAtCv-">
     <mxGraphModel dx="1290" dy="557" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -61,7 +61,7 @@
         <mxCell id="7yvIl1fV3YhBoq5jD-BD-13" value="Objetivo do cliente" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="129" y="260" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="7yvIl1fV3YhBoq5jD-BD-14" value="Recursos e Pessoas" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="7yvIl1fV3YhBoq5jD-BD-14" value="Objetivo de usuário" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="580" y="260" width="119" height="30" as="geometry" />
         </mxCell>
         <mxCell id="7yvIl1fV3YhBoq5jD-BD-16" value="Proposta de Experiencia&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
