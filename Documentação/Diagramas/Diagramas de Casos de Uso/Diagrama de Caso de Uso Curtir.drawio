@@ -1,6 +1,6 @@
-<mxfile host="Electron" modified="2024-04-09T00:55:47.002Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.1.0 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="2bXjDcy2ZxiH9yK8Lani" version="24.1.0" type="device">
+<mxfile host="app.diagrams.net" modified="2024-04-26T01:38:45.350Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="Z_0Aoy6PfwPeK6VIn_nv" version="24.3.0" type="github">
   <diagram name="Página-1" id="TyRYyZFYQ0PoQ1BtjzDm">
-    <mxGraphModel dx="662" dy="426" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="737" dy="318" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -30,24 +30,24 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yHOv8VViKfcUL5vODjpM-26" value="Usuario" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="213" y="260" width="140" height="270" as="geometry">
+          <mxGeometry x="213" y="260" width="140" height="300" as="geometry">
             <mxRectangle x="40" y="120" width="80" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yHOv8VViKfcUL5vODjpM-27" value="+ nome: string&lt;div&gt;+ email: string&lt;div&gt;+ senha: string&lt;/div&gt;&lt;div&gt;+ telefone: string&lt;/div&gt;&lt;div&gt;+ sexo: string&lt;/div&gt;&lt;div&gt;&lt;div&gt;+ endereco: string&lt;/div&gt;&lt;div&gt;+ cep: string&lt;/div&gt;&lt;div&gt;+ nascimento: date&lt;/div&gt;&lt;div&gt;+ pontuacao: int&lt;/div&gt;&lt;div&gt;+ tipo&lt;span style=&quot;background-color: initial;&quot;&gt;: string&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="yHOv8VViKfcUL5vODjpM-26" vertex="1">
-          <mxGeometry y="26" width="140" height="154" as="geometry" />
+        <mxCell id="yHOv8VViKfcUL5vODjpM-27" value="&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;+ nome: string&lt;/span&gt;&lt;br style=&quot;padding: 0px; margin: 0px; text-wrap: nowrap;&quot;&gt;&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;+ foto: string&lt;/span&gt;&lt;br style=&quot;padding: 0px; margin: 0px; text-wrap: nowrap;&quot;&gt;&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;+ email: string&lt;/span&gt;&lt;br style=&quot;padding: 0px; margin: 0px; text-wrap: nowrap;&quot;&gt;&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;+ senha: string&lt;/span&gt;&lt;br style=&quot;padding: 0px; margin: 0px; text-wrap: nowrap;&quot;&gt;&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;+ telefone: string&lt;/span&gt;&lt;br style=&quot;padding: 0px; margin: 0px; text-wrap: nowrap;&quot;&gt;&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;+ sexo: string&lt;/span&gt;&lt;br style=&quot;padding: 0px; margin: 0px; text-wrap: nowrap;&quot;&gt;&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;+ endereco: string&lt;/span&gt;&lt;br style=&quot;padding: 0px; margin: 0px; text-wrap: nowrap;&quot;&gt;&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;+ cep: string&lt;/span&gt;&lt;br style=&quot;padding: 0px; margin: 0px; text-wrap: nowrap;&quot;&gt;&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;+ nascimento: date&lt;/span&gt;&lt;br style=&quot;padding: 0px; margin: 0px; text-wrap: nowrap;&quot;&gt;&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;+ pontuacao: int&lt;/span&gt;&lt;br style=&quot;padding: 0px; margin: 0px; text-wrap: nowrap;&quot;&gt;&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;+ tipo: string&amp;nbsp;&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="yHOv8VViKfcUL5vODjpM-26" vertex="1">
+          <mxGeometry y="26" width="140" height="164" as="geometry" />
         </mxCell>
         <mxCell id="yHOv8VViKfcUL5vODjpM-28" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="yHOv8VViKfcUL5vODjpM-26" vertex="1">
-          <mxGeometry y="180" width="140" height="10" as="geometry" />
+          <mxGeometry y="190" width="140" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="yHOv8VViKfcUL5vODjpM-29" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ criar():&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ gravar():&lt;/span&gt;&lt;/div&gt;&lt;div&gt;+ deletar():&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;+ validarSenha():&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ atualizarPontos():&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="yHOv8VViKfcUL5vODjpM-26" vertex="1">
-          <mxGeometry y="190" width="140" height="80" as="geometry" />
+        <mxCell id="yHOv8VViKfcUL5vODjpM-29" value="&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;+ criar():&lt;/span&gt;&lt;br style=&quot;padding: 0px; margin: 0px; text-wrap: nowrap;&quot;&gt;&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;+ editar():&amp;nbsp;&lt;/span&gt;&lt;br style=&quot;padding: 0px; margin: 0px; text-wrap: nowrap;&quot;&gt;&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;+ gravar():&lt;/span&gt;&lt;br style=&quot;padding: 0px; margin: 0px; text-wrap: nowrap;&quot;&gt;&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;+ deletar():&amp;nbsp;&lt;/span&gt;&lt;br style=&quot;padding: 0px; margin: 0px; text-wrap: nowrap;&quot;&gt;&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;+ validarSenha():&lt;/span&gt;&lt;br style=&quot;padding: 0px; margin: 0px; text-wrap: nowrap;&quot;&gt;&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;+ atualizarPontos():&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="yHOv8VViKfcUL5vODjpM-26" vertex="1">
+          <mxGeometry y="200" width="140" height="100" as="geometry" />
         </mxCell>
         <mxCell id="yHOv8VViKfcUL5vODjpM-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" parent="1" source="yHOv8VViKfcUL5vODjpM-40" target="yHOv8VViKfcUL5vODjpM-66" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yHOv8VViKfcUL5vODjpM-40" value="Curtida" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="478" y="380" width="130" height="100" as="geometry">
+          <mxGeometry x="478" y="390" width="130" height="100" as="geometry">
             <mxRectangle x="318.5" y="230" width="80" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -64,13 +64,13 @@
           <mxGeometry x="421.5" y="390" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="yHOv8VViKfcUL5vODjpM-49" value="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="343" y="390" width="60" height="30" as="geometry" />
+          <mxGeometry x="353.5" y="390" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="yHOv8VViKfcUL5vODjpM-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.998;entryY=0.854;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="yHOv8VViKfcUL5vODjpM-41" target="yHOv8VViKfcUL5vODjpM-27" edge="1">
+        <mxCell id="yHOv8VViKfcUL5vODjpM-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.996;entryY=0.87;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="yHOv8VViKfcUL5vODjpM-41" target="yHOv8VViKfcUL5vODjpM-27" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yHOv8VViKfcUL5vODjpM-63" value="«DAO»&#xa;UsuarioDAO&#xa;" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=35;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
-          <mxGeometry x="203" y="580" width="160" height="70" as="geometry">
+          <mxGeometry x="203" y="600" width="160" height="70" as="geometry">
             <mxRectangle x="340" y="380" width="170" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -81,7 +81,7 @@
           <mxGeometry y="43" width="160" height="27" as="geometry" />
         </mxCell>
         <mxCell id="yHOv8VViKfcUL5vODjpM-66" value="«DAO»&#xa;CurtidaDAO&#xa;" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=35;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
-          <mxGeometry x="463" y="580" width="160" height="70" as="geometry">
+          <mxGeometry x="463" y="600" width="160" height="70" as="geometry">
             <mxRectangle x="340" y="380" width="170" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
