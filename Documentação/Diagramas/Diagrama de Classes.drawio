@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-04-26T01:48:35.942Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="ur7JfnyQofsWcLNqdBuk" version="24.3.0" type="github">
+<mxfile host="Electron" modified="2024-05-16T22:56:37.704Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.4.0 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="N2k8Vs2BJbNSldp5z_YP" version="24.4.0" type="device">
   <diagram name="Página-1" id="5RVed3y4hSYuZmyaZZXw">
-    <mxGraphModel dx="890" dy="384" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -19,16 +19,16 @@
           <mxGeometry y="200" width="140" height="100" as="geometry" />
         </mxCell>
         <mxCell id="QjswOWy8ObnYDPO3Suas-5" value="Denuncia" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="597" y="120" width="160" height="240" as="geometry" />
+          <mxGeometry x="597" y="120" width="160" height="250" as="geometry" />
         </mxCell>
-        <mxCell id="QjswOWy8ObnYDPO3Suas-6" value="+ titulo: string&lt;div&gt;+ descricao: string&lt;/div&gt;&lt;div&gt;+ categoria: string&lt;/div&gt;&lt;div&gt;+ local: string&lt;br&gt;+ latitude: string&lt;/div&gt;&lt;div&gt;+ longitude: string&lt;/div&gt;&lt;div&gt;+ fotos: string&lt;/div&gt;&lt;div&gt;+ quantCurtidas: int&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="QjswOWy8ObnYDPO3Suas-5" vertex="1">
-          <mxGeometry y="26" width="160" height="124" as="geometry" />
+        <mxCell id="QjswOWy8ObnYDPO3Suas-6" value="&lt;div&gt;&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;+ titulo: string&lt;/span&gt;&lt;br style=&quot;padding: 0px; margin: 0px; text-wrap: nowrap;&quot;&gt;&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;+ descricao: string&lt;/span&gt;&lt;br style=&quot;padding: 0px; margin: 0px; text-wrap: nowrap;&quot;&gt;&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;+ categoria: string&lt;/span&gt;&lt;br style=&quot;padding: 0px; margin: 0px; text-wrap: nowrap;&quot;&gt;&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;+ data: DateTime&lt;/span&gt;&lt;br style=&quot;padding: 0px; margin: 0px; text-wrap: nowrap;&quot;&gt;&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;+ local: string&lt;/span&gt;&lt;br style=&quot;padding: 0px; margin: 0px; text-wrap: nowrap;&quot;&gt;&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;+ latitude: string&lt;/span&gt;&lt;br style=&quot;padding: 0px; margin: 0px; text-wrap: nowrap;&quot;&gt;&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;+ longitude: string&lt;/span&gt;&lt;br style=&quot;padding: 0px; margin: 0px; text-wrap: nowrap;&quot;&gt;&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;+ fotos: string&lt;/span&gt;&lt;br style=&quot;padding: 0px; margin: 0px; text-wrap: nowrap;&quot;&gt;&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;+ quantCurtidas: int&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="QjswOWy8ObnYDPO3Suas-5" vertex="1">
+          <mxGeometry y="26" width="160" height="134" as="geometry" />
         </mxCell>
         <mxCell id="QjswOWy8ObnYDPO3Suas-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="QjswOWy8ObnYDPO3Suas-5" vertex="1">
-          <mxGeometry y="150" width="160" height="10" as="geometry" />
+          <mxGeometry y="160" width="160" height="10" as="geometry" />
         </mxCell>
         <mxCell id="QjswOWy8ObnYDPO3Suas-8" value="+ criar():&amp;nbsp;&lt;br style=&quot;padding: 0px; margin: 0px;&quot;&gt;&lt;span style=&quot;&quot;&gt;+ deletar():&amp;nbsp;&lt;/span&gt;&lt;br style=&quot;padding: 0px; margin: 0px;&quot;&gt;+ alterar():&lt;br&gt;+ buscar():&lt;span style=&quot;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;br style=&quot;padding: 0px; margin: 0px;&quot;&gt;&lt;span style=&quot;&quot;&gt;+ gerarRelatório():&lt;/span&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="QjswOWy8ObnYDPO3Suas-5" vertex="1">
-          <mxGeometry y="160" width="160" height="80" as="geometry" />
+          <mxGeometry y="170" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="QjswOWy8ObnYDPO3Suas-10" value="Comentario" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="318.5" y="100" width="130" height="106" as="geometry" />
