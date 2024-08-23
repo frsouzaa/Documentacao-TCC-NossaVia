@@ -19,13 +19,13 @@
         <mxCell id="NTeN7ECSsuZhgg9N5Vip-5" value="Comentário" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="300" y="600" width="160" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="NTeN7ECSsuZhgg9N5Vip-6" value="&lt;div&gt;Id_Comentário*&lt;/div&gt;Data&lt;div&gt;Texto&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="NTeN7ECSsuZhgg9N5Vip-5" vertex="1">
+        <mxCell id="NTeN7ECSsuZhgg9N5Vip-6" value="&lt;div&gt;Id_Comentário*&lt;/div&gt;&lt;div&gt;Id_Usuario*&lt;/div&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;Id_Denúncia*&lt;/span&gt;Data&lt;div&gt;Texto&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="NTeN7ECSsuZhgg9N5Vip-5" vertex="1">
           <mxGeometry y="50" width="160" height="70" as="geometry" />
         </mxCell>
         <mxCell id="NTeN7ECSsuZhgg9N5Vip-7" value="Curtida" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="300" y="20" width="160" height="120" as="geometry" />
+          <mxGeometry x="345" y="20" width="160" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="NTeN7ECSsuZhgg9N5Vip-8" value="&lt;div&gt;Id_Curtida*&lt;/div&gt;Status" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="NTeN7ECSsuZhgg9N5Vip-7" vertex="1">
+        <mxCell id="NTeN7ECSsuZhgg9N5Vip-8" value="&lt;div&gt;Id_Curtida*&lt;br&gt;Id_Usuario*&lt;/div&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;Id_Denúncia*&lt;/span&gt;&lt;br&gt;Status" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="NTeN7ECSsuZhgg9N5Vip-7" vertex="1">
           <mxGeometry y="50" width="160" height="70" as="geometry" />
         </mxCell>
         <mxCell id="NTeN7ECSsuZhgg9N5Vip-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="NTeN7ECSsuZhgg9N5Vip-1" target="NTeN7ECSsuZhgg9N5Vip-28" edge="1">
@@ -106,7 +106,7 @@
             <mxPoint x="18" y="-7" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NTeN7ECSsuZhgg9N5Vip-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="NTeN7ECSsuZhgg9N5Vip-26" edge="1" target="NTeN7ECSsuZhgg9N5Vip-6">
+        <mxCell id="NTeN7ECSsuZhgg9N5Vip-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="NTeN7ECSsuZhgg9N5Vip-26" target="NTeN7ECSsuZhgg9N5Vip-6" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="520" y="650" />
