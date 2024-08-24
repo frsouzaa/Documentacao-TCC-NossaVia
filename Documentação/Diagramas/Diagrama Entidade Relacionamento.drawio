@@ -4,21 +4,31 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="NTeN7ECSsuZhgg9N5Vip-1" value="Usuário" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="10" y="280" width="170" height="200" as="geometry" />
+        <mxCell id="NTeN7ECSsuZhgg9N5Vip-1" value="Usuario" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="10" y="280" width="170" height="230" as="geometry" />
         </mxCell>
-        <mxCell id="NTeN7ECSsuZhgg9N5Vip-2" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;Id_Usuario*&lt;br&gt;Nome&lt;br&gt;Email&lt;br&gt;Senha&lt;br&gt;Endereço&lt;br&gt;Cep&lt;br&gt;&lt;/font&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;Data de Nascimento&lt;br&gt;Pontuação&lt;br&gt;Tipo&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="NTeN7ECSsuZhgg9N5Vip-1" vertex="1">
-          <mxGeometry y="50" width="170" height="150" as="geometry" />
+        <mxCell id="NTeN7ECSsuZhgg9N5Vip-2" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;id* : PK&lt;/span&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;criacao: datetime&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;modificacao: datetime&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;delete : datetime&lt;br&gt;nome&lt;br&gt;email&lt;br&gt;senha&lt;br&gt;endereco&lt;br&gt;cep&lt;br&gt;&lt;/font&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;data_de_nascimento&lt;br&gt;pontuacao&lt;br&gt;&lt;/font&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="NTeN7ECSsuZhgg9N5Vip-1" vertex="1">
+          <mxGeometry y="50" width="170" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="NTeN7ECSsuZhgg9N5Vip-3" value="Denúncia" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="636" y="280" width="170" height="200" as="geometry" />
+        <mxCell id="NTeN7ECSsuZhgg9N5Vip-3" value="Denuncia" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="636" y="280" width="170" height="260" as="geometry" />
         </mxCell>
-        <mxCell id="NTeN7ECSsuZhgg9N5Vip-4" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;Id_Denúncia*&lt;br&gt;Titulo&lt;br&gt;Descrição&lt;br&gt;Categoria&lt;br&gt;Data&lt;br&gt;Local&lt;br&gt;&lt;/font&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;Latitude&lt;br&gt;Longitude&lt;br&gt;&lt;/font&gt;Fotos&lt;/div&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;Qtd_curtidas&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="NTeN7ECSsuZhgg9N5Vip-3" vertex="1">
-          <mxGeometry y="50" width="170" height="150" as="geometry" />
+        <mxCell id="NTeN7ECSsuZhgg9N5Vip-4" value="id* : PK&lt;br&gt;&lt;div&gt;Id_Usuario* : FK&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;criacao: datetime&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;modificacao: datetime&lt;/font&gt;&lt;/div&gt;titulo&lt;br&gt;descrição&lt;br&gt;categoria&lt;br&gt;data&lt;br&gt;local&lt;/font&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11px; background-color: initial;&quot;&gt;latitude&lt;/span&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;longitude&lt;br&gt;&lt;/font&gt;fotos&lt;/div&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;qtd_curtidas&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="NTeN7ECSsuZhgg9N5Vip-3" vertex="1">
+          <mxGeometry y="50" width="170" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="NTeN7ECSsuZhgg9N5Vip-5" value="Comentário" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="300" y="600" width="160" height="120" as="geometry" />
+        <mxCell id="NTeN7ECSsuZhgg9N5Vip-5" value="Comentario" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="300" y="600" width="160" height="160" as="geometry" />
         </mxCell>
+<<<<<<< HEAD
+        <mxCell id="NTeN7ECSsuZhgg9N5Vip-6" value="&lt;div&gt;id* : PK&lt;br&gt;&lt;div&gt;Id_Usuario* : FK&lt;/div&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;Id_Denúncia* : FK&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;criacao: datetime&lt;/font&gt;&lt;/div&gt;&lt;span style=&quot;font-size: 11px; background-color: initial;&quot;&gt;modificacao: datetime&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;texto&lt;/span&gt;&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="NTeN7ECSsuZhgg9N5Vip-5" vertex="1">
+          <mxGeometry y="50" width="160" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="NTeN7ECSsuZhgg9N5Vip-7" value="Curtida" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="300" y="20" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="NTeN7ECSsuZhgg9N5Vip-8" value="&lt;div&gt;id* : PK&lt;br&gt;&lt;div&gt;Id_Usuario* : FK&lt;/div&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;Id_Denúncia* : FK&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;criacao: datetime&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;modificacao: datetime&lt;/span&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;status" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="NTeN7ECSsuZhgg9N5Vip-7" vertex="1">
+          <mxGeometry y="50" width="160" height="110" as="geometry" />
+=======
         <mxCell id="NTeN7ECSsuZhgg9N5Vip-6" value="&lt;div&gt;Id_Comentário*&lt;/div&gt;&lt;div&gt;Id_Usuario*&lt;/div&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;Id_Denúncia*&lt;/span&gt;Data&lt;div&gt;Texto&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="NTeN7ECSsuZhgg9N5Vip-5" vertex="1">
           <mxGeometry y="50" width="160" height="70" as="geometry" />
         </mxCell>
@@ -27,6 +37,7 @@
         </mxCell>
         <mxCell id="NTeN7ECSsuZhgg9N5Vip-8" value="&lt;div&gt;Id_Curtida*&lt;br&gt;Id_Usuario*&lt;/div&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;Id_Denúncia*&lt;/span&gt;&lt;br&gt;Status" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="NTeN7ECSsuZhgg9N5Vip-7" vertex="1">
           <mxGeometry y="50" width="160" height="70" as="geometry" />
+>>>>>>> b8e701d371091e9e4575eac20565cd389a64aa18
         </mxCell>
         <mxCell id="NTeN7ECSsuZhgg9N5Vip-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="NTeN7ECSsuZhgg9N5Vip-1" target="NTeN7ECSsuZhgg9N5Vip-28" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -46,7 +57,7 @@
         <mxCell id="NTeN7ECSsuZhgg9N5Vip-12" value="Realiza" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="320" y="300" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NTeN7ECSsuZhgg9N5Vip-13" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="NTeN7ECSsuZhgg9N5Vip-1" target="NTeN7ECSsuZhgg9N5Vip-12" edge="1">
+        <mxCell id="NTeN7ECSsuZhgg9N5Vip-13" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="NTeN7ECSsuZhgg9N5Vip-2" target="NTeN7ECSsuZhgg9N5Vip-12" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="251" y="330" as="sourcePoint" />
             <mxPoint x="411" y="370" as="targetPoint" />
@@ -80,7 +91,7 @@
         </mxCell>
         <mxCell id="NTeN7ECSsuZhgg9N5Vip-18" value="(0,N)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="NTeN7ECSsuZhgg9N5Vip-17" vertex="1" connectable="0">
           <mxGeometry x="-0.42" y="-2" relative="1" as="geometry">
-            <mxPoint x="-28" y="-22" as="offset" />
+            <mxPoint x="-38" y="-22" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="NTeN7ECSsuZhgg9N5Vip-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="NTeN7ECSsuZhgg9N5Vip-21" target="NTeN7ECSsuZhgg9N5Vip-2" edge="1">
@@ -90,7 +101,7 @@
         </mxCell>
         <mxCell id="NTeN7ECSsuZhgg9N5Vip-20" value="(1,1)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="NTeN7ECSsuZhgg9N5Vip-19" vertex="1" connectable="0">
           <mxGeometry x="0.625" y="2" relative="1" as="geometry">
-            <mxPoint x="-32" y="-1" as="offset" />
+            <mxPoint x="-32" y="14" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="NTeN7ECSsuZhgg9N5Vip-21" value="Faz" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
@@ -154,7 +165,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="NTeN7ECSsuZhgg9N5Vip-33" value="(0,N)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="291" y="50" as="geometry" />
+          <mxGeometry x="280" y="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
