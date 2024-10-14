@@ -40,7 +40,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="WZ7tPgA7MvwI6T68DqG5-11" value="Comentário Computado" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;exitPerimeter=0;" parent="1" source="WZ7tPgA7MvwI6T68DqG5-5" target="WZ7tPgA7MvwI6T68DqG5-7" edge="1">
-          <mxGeometry x="-0.0286" y="20" relative="1" as="geometry">
+          <mxGeometry x="0.04" y="-5" relative="1" as="geometry">
             <mxPoint x="-1282" y="310" as="targetPoint" />
             <mxPoint x="-1207" y="315" as="sourcePoint" />
             <mxPoint as="offset" />
@@ -103,14 +103,14 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="WZ7tPgA7MvwI6T68DqG5-24" value="Comentário Computado" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" parent="1" edge="1">
-          <mxGeometry x="-0.0345" y="20" relative="1" as="geometry">
+          <mxGeometry x="0.0462" relative="1" as="geometry">
             <mxPoint x="-1192" y="310" as="targetPoint" />
             <mxPoint x="-1062" y="310" as="sourcePoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="WZ7tPgA7MvwI6T68DqG5-25" value="Comentário Computado" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;exitPerimeter=0;" parent="1" source="WZ7tPgA7MvwI6T68DqG5-7" target="WZ7tPgA7MvwI6T68DqG5-3" edge="1">
-          <mxGeometry x="-0.0333" y="20" relative="1" as="geometry">
+          <mxGeometry x="-0.0435" y="-5" relative="1" as="geometry">
             <mxPoint x="-1517" y="325" as="targetPoint" />
             <mxPoint x="-1367" y="325" as="sourcePoint" />
             <mxPoint as="offset" />
