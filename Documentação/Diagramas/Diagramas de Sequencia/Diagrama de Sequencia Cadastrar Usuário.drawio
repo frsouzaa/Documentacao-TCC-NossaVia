@@ -73,7 +73,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="6LJwA5GQckkRtoz5Uk3Q-25" value="Usuário&amp;nbsp;Criado" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" parent="1" source="6LJwA5GQckkRtoz5Uk3Q-11" edge="1">
-          <mxGeometry x="0.2" y="-20" relative="1" as="geometry">
+          <mxGeometry x="0.215" relative="1" as="geometry">
             <mxPoint x="-1500" y="300" as="targetPoint" />
             <mxPoint x="-970" y="300" as="sourcePoint" />
             <mxPoint as="offset" />
@@ -102,7 +102,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="k1tKJQwJOCURgJKSLY6P-4" value="Consulta CEP" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="k1tKJQwJOCURgJKSLY6P-3" vertex="1" connectable="0">
+        <mxCell id="k1tKJQwJOCURgJKSLY6P-4" value="&lt;span style=&quot;font-size: 12px; text-align: left;&quot;&gt;ConsultarCEP()&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="k1tKJQwJOCURgJKSLY6P-3" vertex="1" connectable="0">
           <mxGeometry x="-0.2558" y="1" relative="1" as="geometry">
             <mxPoint x="1" y="-9" as="offset" />
           </mxGeometry>
@@ -134,7 +134,7 @@
         <mxCell id="k1tKJQwJOCURgJKSLY6P-11" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="k1tKJQwJOCURgJKSLY6P-10" vertex="1">
           <mxGeometry x="45" y="80" width="10" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="k1tKJQwJOCURgJKSLY6P-12" value="&lt;span style=&quot;font-size: 12px; text-align: left;&quot;&gt;Consultar CEP&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=5;exitPerimeter=0;" parent="1" edge="1">
+        <mxCell id="k1tKJQwJOCURgJKSLY6P-12" value="&lt;span style=&quot;font-size: 12px; text-align: left;&quot;&gt;ConsultarCEP()&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=5;exitPerimeter=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-1355" y="190" as="sourcePoint" />
             <mxPoint as="offset" />
@@ -151,7 +151,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="k1tKJQwJOCURgJKSLY6P-14" value="&lt;span style=&quot;font-size: 12px; text-align: left;&quot;&gt;Consultar CEP&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=5;exitPerimeter=0;" parent="1" target="k1tKJQwJOCURgJKSLY6P-11" edge="1">
+        <mxCell id="k1tKJQwJOCURgJKSLY6P-14" value="&lt;span style=&quot;font-size: 12px; text-align: left;&quot;&gt;ConsultarCEP()&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=5;exitPerimeter=0;" parent="1" target="k1tKJQwJOCURgJKSLY6P-11" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-1500" y="180" as="sourcePoint" />
             <mxPoint as="offset" />
