@@ -1,13 +1,13 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.9.0">
   <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
-    <mxGraphModel dx="2655" dy="475" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2750" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="RSITEJIctfZ_Kpc4l4vB-1" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" parent="1" vertex="1">
           <mxGeometry x="-1669" y="130" width="20" height="370" as="geometry" />
         </mxCell>
-        <mxCell id="RSITEJIctfZ_Kpc4l4vB-2" value="«View»&lt;br&gt;&lt;b&gt;TelaVisualizarDenuncia&lt;/b&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+        <mxCell id="RSITEJIctfZ_Kpc4l4vB-2" value="«View»&lt;br&gt;&lt;b&gt;TelaVisualizarReclamação&lt;/b&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
           <mxGeometry x="-1637" y="130" width="172" height="370" as="geometry" />
         </mxCell>
         <mxCell id="RSITEJIctfZ_Kpc4l4vB-3" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="RSITEJIctfZ_Kpc4l4vB-2" vertex="1">
@@ -25,7 +25,7 @@
         <mxCell id="RSITEJIctfZ_Kpc4l4vB-9" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="RSITEJIctfZ_Kpc4l4vB-8" vertex="1">
           <mxGeometry x="45" y="80" width="10" height="250" as="geometry" />
         </mxCell>
-        <mxCell id="RSITEJIctfZ_Kpc4l4vB-10" value="Curtir Denúncia" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;rounded=0;" parent="1" target="RSITEJIctfZ_Kpc4l4vB-3" edge="1">
+        <mxCell id="RSITEJIctfZ_Kpc4l4vB-10" value="Curtir Reclamação" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;rounded=0;" parent="1" target="RSITEJIctfZ_Kpc4l4vB-3" edge="1">
           <mxGeometry x="-0.8076" y="30" relative="1" as="geometry">
             <mxPoint x="-1659.0714285714284" y="220" as="sourcePoint" />
             <mxPoint x="-1554" y="220" as="targetPoint" />
@@ -43,7 +43,7 @@
             <mxPoint x="-1362" y="230" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="RSITEJIctfZ_Kpc4l4vB-16" value="&lt;div style=&quot;text-align: left;&quot;&gt;curtir&lt;span style=&quot;font-size: 12px;&quot;&gt;()&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" parent="1" edge="1" target="RSITEJIctfZ_Kpc4l4vB-5">
+        <mxCell id="RSITEJIctfZ_Kpc4l4vB-16" value="&lt;div style=&quot;text-align: left;&quot;&gt;curtir&lt;span style=&quot;font-size: 12px;&quot;&gt;()&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" parent="1" target="RSITEJIctfZ_Kpc4l4vB-5" edge="1">
           <mxGeometry x="0.0027" relative="1" as="geometry">
             <mxPoint x="-1365" y="240" as="sourcePoint" />
             <mxPoint as="offset" />
